@@ -1,13 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #FCA311;
+  /* background-image: url('https://images.unsplash.com/photo-1524578271613-d550eacf6090?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'); */
+  
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Lexend Deca', sans-serif;
+  /* font-family: 'IBM Plex Mono', monospace; */
+  /* font-family: "IMB Plex Mono"; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 3rem;
 }
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.center {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-1 {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.bg-2 {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
